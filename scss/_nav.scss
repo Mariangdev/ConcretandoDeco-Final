@@ -1,0 +1,63 @@
+/* TOGGLE */
+.header {
+	background-color: #545454;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.titulo-1 {
+	text-align: center;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	max-width: 992px;
+	margin: 0 auto;
+}
+.nav-link {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 40px;
+	line-height: 80px;
+}
+.nav-menu {
+	display: flex;
+	margin-right: 40px;
+	list-style: none;
+}
+.nav-menu-item {
+	font-size: 18px;
+	margin: 0 10px;
+	line-height: 80px;
+	text-transform: uppercase;
+	width: max-content;
+}
+.nav-menu-link {
+	padding: 8px 12px;
+	border-radius: 3px;
+	&:hover {
+		background-color: #777777;
+		transition: 0.5s;
+	}
+}
+.nav-menu-link_active {
+	background-color: #777777;
+	transition: 0.5s;
+}
+.nav-toggle {
+	color: #f2f2f2;
+	background: none;
+	border: none;
+	font-size: 30px;
+	padding: 0 20px;
+	line-height: 60px;
+	cursor: pointer;
+	display: none;
+}
