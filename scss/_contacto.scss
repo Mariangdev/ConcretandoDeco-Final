@@ -2,16 +2,16 @@
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	border: solid #ed1c6f;
+	border: solid ;
 	padding: 30px;
 }
 button {
-	font-family: 'Montserrat', sans-serif;
+	font-family: $text;
 	font-weight: 700;
 	letter-spacing: 1.4px;
 }
 input {
-	font-family: 'Montserrat', sans-serif;
+	font-family: $text;
 	font-weight: 700;
 	letter-spacing: 1.4px;
 }
@@ -26,7 +26,7 @@ input {
 }
 .screen {
 	position: relative;
-	background: #545454;
+	background: $black;
 	border-radius: 15px;
 	&:after {
 		content: '';
@@ -45,7 +45,7 @@ input {
 	display: flex;
 	align-items: center;
 	padding: 10px 20px;
-	background: #777777;
+	background: $otherBlack;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -58,16 +58,16 @@ input {
 	height: 8px;
 	margin-right: 3px;
 	border-radius: 8px;
-	background: #f2f2f2;
+	background: $white;
 }
 .screen-header-boton.cerrar {
-	background: #f2f2f2;
+	background: $white;
 }
 .screen-header-boton.maximizar {
-	background: #f2f2f2;
+	background: $white;
 }
 .screen-header-boton.minimizar {
-	background: #f2f2f2;
+	background: $white;
 }
 .screen-header-derecha {
 	display: flex;
@@ -77,7 +77,7 @@ input {
 	height: 3px;
 	margin-left: 2px;
 	border-radius: 8px;
-	background: #f2f2f2;
+	background: $white;
 }
 .screen-body {
 	display: flex;
@@ -94,7 +94,7 @@ input {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	color: #f2f2f2;
+	color: $white;
 	font-size: 26px;
 	&:after {
 		content: '';
@@ -104,16 +104,16 @@ input {
 		bottom: -10px;
 		width: 25px;
 		height: 4px;
-		background: #f2f2f2;
+		background: $white;
 	}
 }
 .app-contact {
 	margin-top: auto;
 	font-size: 15px;
-	color: #f2f2f2;
+	color: $white;
 	a {
 		text-decoration: none;
-		color: #f2f2f2;
+		color: $white;
 	}
 }
 .app-form-group {
@@ -131,28 +131,28 @@ input {
 	padding: 10px 0;
 	background: none;
 	border: none;
-	border-bottom: 1px solid #f2f2f2;
-	color: #f2f2f2;
+	border-bottom: 1px solid $white;
+	color: $white;
 	font-size: 14px;
 	text-transform: uppercase;
 	outline: none;
 	transition: border-color .2s;
 	&::placeholder {
-		color: #f2f2f2;
+		color:  $white;
 	}
 	&:focus {
-		border-bottom-color: #f2f2f2;
+		border-bottom-color:  $white;
 	}
 }
 .app-form-button {
 	background: none;
 	border: none;
-	color: #f2f2f2;
+	color:  $white;
 	font-size: 14px;
 	cursor: pointer;
 	outline: none;
 	&:hover {
-		color: #f2f2f2;
+		color:  $white;
 	}
 }
 .credits {
@@ -160,15 +160,15 @@ input {
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
-	color: #f2f2f2;
-	font-family: 'Roboto Condensed', sans-serif;
+	color:  $white;
+	font-family: $text;
 	font-size: 16px;
 	font-weight: normal;
 }
 .credits-link {
 	display: flex;
 	align-items: center;
-	color: #fff;
+	color:  $white;
 	font-weight: bold;
 	text-decoration: none;
 }
