@@ -1,9 +1,11 @@
 @charset "UTF-8";
+/* Modicación de reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+/* Modificacion de contacto*/
 .categoria-contenido {
   display: flex;
   justify-content: center;
@@ -177,6 +179,8 @@ input {
   height: 20px;
   margin: 0 5px; }
 
+/* Fin de contacto*/
+/* Modificacion de FAQs*/
 .container-2 {
   width: 45%;
   min-width: 500px;
@@ -241,6 +245,7 @@ h3 {
 .pasos {
   color: #777777; }
 
+/* Fin de FAQs*/
 /* Modicación en DECOR y Home-&-Beauty con media query*/
 .contenedor {
   width: 90%;
@@ -283,6 +288,8 @@ h3 {
   max-width: 100%;
   display: block; }
 
+/* Fin en DECOR y Home-&-Beauty con media query*/
+/* Modicación de body*/
 body {
   background-color: #f2f2f2;
   margin: 0px;
@@ -290,6 +297,7 @@ body {
   min-height: 100vh;
   margin-top: 100px; }
 
+/* Modicación de nosotros*/
 .container-3 {
   display: flex;
   padding: 1.5rem;
@@ -343,15 +351,8 @@ p {
 .texto {
   margin: 1rem; }
 
-.header {
-  background-color: #545454;
-  height: 80px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
+/* Fin de nosotros*/
+/* Modicación de producto*/
 .contenedorProducto {
   width: 90%;
   max-width: 500px;
@@ -393,6 +394,8 @@ p {
   max-width: 100%;
   display: block; }
 
+/* Fin de producto*/
+/* Modicación de reset*/
 * {
   margin: 0;
   padding: 0;
@@ -421,6 +424,8 @@ p {
   color: #f2f2f2;
   margin-bottom: 100px; }
 
+/* Fin  de titulos*/
+/* Modificacion de Footer*/
 footer {
   background-color: #777777;
   padding: 20px;
@@ -461,6 +466,8 @@ a {
 .far.fa-envelope {
   font-size: 30px; }
 
+/* Fin de Footer*/
+/* Modicación De nav*/
 .header {
   background-color: #545454;
   height: 80px;
@@ -522,6 +529,7 @@ a {
   cursor: pointer;
   display: none; }
 
+/* Fin De nav*/
 /* Nav */
 @media (max-width: 768px) {
   body {
